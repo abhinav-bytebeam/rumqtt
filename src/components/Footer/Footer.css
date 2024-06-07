@@ -1,0 +1,91 @@
+.footer_nav{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.Social_Images{
+width: 30px;
+height: auto;
+margin-left: 15px;
+}
+footer{
+    border-top: #f8f8f8 solid 1px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#footer_div{
+    width: 60%;
+    margin: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#footer_social{
+    display: inline !important;
+}
+#footer_logo{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+    padding: 3px 0px 3px 0px;
+
+
+}
+.logo_image{
+    display: inline;
+    width: 4rem;
+    height: auto;
+}
+.logo_heading{
+    display: inline;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+.footer_divisions{
+    margin-right: 30px;
+}
+h3{
+    margin-top: 0px;
+}
+@media (max-width:1200px){
+    #footer_logo{
+        display: none;
+    }
+}
+@media (max-width:900px){
+    #footer_div{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_nav{
+        margin-bottom: 40px;
+    }
+    #twitter{
+        margin-left: 0px;
+    }
+}
+@media(max-width:550px){
+    #footer_div{
+        margin-left: 0px;
+    }
+}
+@media(max-width:500px){
+    .footer_nav{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .footer_divisions{
+        margin-bottom: 20px;
+    }
+}
+#github, #blog, #release, #discord{
+    text-decoration: none;
+    color: #f8f8f8;
+    cursor: pointer;
+}

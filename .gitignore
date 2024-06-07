@@ -1,0 +1,10 @@
+# Obsidian local state
+.docusaurus/
+.docusaurus
+
+.obsidian
+node_modules
+
+blog
+
+build

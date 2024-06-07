@@ -1,0 +1,64 @@
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+p {
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 1.5rem;
+}
+
+input {
+    width: 350px;
+    border-radius: 50px;
+    border: none;
+    background-color: #1f1f32;
+    padding: 0.8rem 1.2rem 0.8rem 1.2rem;
+    margin-bottom: 15px;
+}
+
+.Text {
+    width: 350px;
+    border-radius: 20px;
+    min-height: 90px;
+    border: none;
+    background-color: #1f1f32;
+    padding: 0.8rem 1.2rem 0.8rem 1.2rem;
+    margin-bottom: 15px;
+    resize: vertical;
+}
+
+#button {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.6rem 1.2rem 0.6rem 1.2rem;
+    width: 150px;
+    margin-top: 15px;
+    background-color: #00e0b8;
+    color: #07071c;
+}
+
+@media(max-width:500px) {
+    .Text {
+        width: 300px;
+    }
+
+    input {
+        width: 300px;
+    }
+}
+
+#button:hover {
+    cursor: pointer;
+}
+
+#get_in_touch {
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+}

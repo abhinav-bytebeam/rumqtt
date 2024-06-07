@@ -1,0 +1,56 @@
+.features {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 4rem 0 2rem 0;
+}
+
+.features .highlight .header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1rem;
+
+  @media screen and (min-width: 576px) {
+    justify-content: center;
+  }
+}
+
+.features .highlight .header .icon {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  margin-right: 8px;
+}
+
+.features .highlight .header .title {
+  font-size: 1.25rem;
+  margin-bottom: 0;
+}
+
+.features .highlight {
+  margin-bottom: 4rem;
+}
+
+.features .highlight .item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.features .highlight p {
+  margin-bottom: 0rem;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
+
+@media screen and (min-width: 576px) {
+  .features .highlight {
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+}

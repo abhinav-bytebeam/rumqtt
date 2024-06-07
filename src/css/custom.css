@@ -1,0 +1,103 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+
+:root {
+  --ifm-color-primary: #00a3a3;
+  --ifm-color-primary-dark: #017272;
+  --ifm-color-primary-darker: #006363;
+  --ifm-color-primary-darkest: #005151;
+  --ifm-color-primary-light: #00cccc;
+  --ifm-color-primary-lighter: #4dffff;
+  --ifm-color-primary-lightest: #80ffff;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-primary-background-color: #f0f0f0;
+  --ifm-secondary-background-color: #e4e4e4;
+  --ifm-text-color: #1c1c1c;
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #00dbdb;
+  --ifm-color-primary-dark: #00a4a4;
+  --ifm-color-primary-darker: #006666;
+  --ifm-color-primary-darkest: #004d4d;
+  --ifm-color-primary-light: #00e6e6;
+  --ifm-color-primary-lighter: #4dffff;
+  --ifm-color-primary-lightest: #80ffff;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-primary-background-color: #1b1b1d;
+  --ifm-secondary-background-color: #272729;
+  --ifm-text-color: #e3e3e3;
+}
+
+.hero-section {
+  background-color: var(--ifm-primary-background-color);
+}
+
+.feature-section {
+  background-color: var(--ifm-secondary-background-color);
+}
+
+.footer {
+  background-color: var(--ifm-primary-background-color);
+}
+
+.footer__copyright{
+ margin-top: 2rem;
+}
+
+.hero__subtitle,
+.footer__title,
+.footer__link-item,
+.footer__copyright {
+  color: var(--ifm-text-color);
+}
+
+
+html[data-theme='light'] .navbar .navbar__logo {
+  content: url(../../static/img/dark-logo.svg)
+}
+ 
+
+html{
+  background-color: #07071c;
+  color: #f8f8f8;
+}
+header{
+  background-color: #07071c;
+}
+.footer.footer--dark{
+  background-color: #07071c;
+  color: #f8f8f8;
+  border-top: #f8f8f8 1px solid;
+}
+.container.container-fluid{
+  color: #f8f8f8;
+}
+.footer__title{
+  color: #f8f8f8;
+}
+.footer__link-item{
+  color: #f8f8f8;
+}
+.footer__copyright{
+  color: #f8f8f8;
+}
+#features_heading{
+  font-size: 3rem;
+}
+.navbar.navbar--fixed-top{
+  background-color: #1c1c2f;
+  color: #f8f8f8;
+}
+.navbar__item.navbar__link{
+  color: #f8f8f8;
+}
+.navbar__title.text--truncate{
+  color: #f8f8f8;
+}
