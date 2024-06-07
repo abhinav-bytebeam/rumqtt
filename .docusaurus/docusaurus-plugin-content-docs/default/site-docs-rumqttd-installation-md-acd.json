@@ -1,0 +1,27 @@
+{
+  "id": "rumqttd/Installation",
+  "title": "Installation",
+  "description": "Run using docker",
+  "source": "@site/docs/rumqttd/Installation.md",
+  "sourceDirName": "rumqttd",
+  "slug": "/rumqttd/Installation",
+  "permalink": "/docs/rumqttd/Installation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Installation",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Getting started",
+    "permalink": "/docs/rumqttd/Introduction"
+  },
+  "next": {
+    "title": "Configuration",
+    "permalink": "/docs/rumqttd/Configuration"
+  }
+}

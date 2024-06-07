@@ -1,0 +1,21 @@
+{
+  "id": "Introduction",
+  "title": "Introduction",
+  "description": "What is rumqtt?",
+  "source": "@site/docs/Introduction.md",
+  "sourceDirName": ".",
+  "slug": "/Introduction",
+  "permalink": "/docs/Introduction",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Introduction"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Getting started",
+    "permalink": "/docs/rumqttc/Introduction"
+  }
+}

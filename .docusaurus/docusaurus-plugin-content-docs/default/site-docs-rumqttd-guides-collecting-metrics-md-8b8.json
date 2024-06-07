@@ -1,0 +1,25 @@
+{
+  "id": "rumqttd/Guides/Collecting Metrics",
+  "title": "Collecting Metrics",
+  "description": "Rumqttd provides metrics and diagnostics data about the broker through special links. Let's look at two such links - AlertsLink or MetersLink. When using rumqttd as a library, the user can configure these links to receive different type of metrics data.",
+  "source": "@site/docs/rumqttd/Guides/Collecting Metrics.md",
+  "sourceDirName": "rumqttd/Guides",
+  "slug": "/rumqttd/Guides/Collecting Metrics",
+  "permalink": "/docs/rumqttd/Guides/Collecting Metrics",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Collecting Metrics"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "FAQs",
+    "permalink": "/docs/rumqttd/FAQs"
+  },
+  "next": {
+    "title": "Embedding rumqttd in your application",
+    "permalink": "/docs/rumqttd/Guides/Embedding rumqttd in your application"
+  }
+}

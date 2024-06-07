@@ -1,0 +1,45 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.indexCtasGitHubButtonWrapper {
+  margin-left: 1rem;
+  display: flex;
+}
+
+.indexCtasGitHubButton {
+  overflow: hidden;
+}
+
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+}
+
+
+.exploreButton {
+  border: 3px solid var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
+}
+
+.exploreButton:hover {
+  background-color: var(--ifm-color-primary);
+  color: var(--ifm-primary-background-color);
+}

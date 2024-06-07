@@ -1,0 +1,25 @@
+{
+  "id": "rumqttc/Developer Guide/rumqttc internals",
+  "title": "Rumqttc Internals",
+  "description": "Lets dive into internals of rumqttc and understand how it works.",
+  "source": "@site/docs/rumqttc/Developer Guide/rumqttc internals.md",
+  "sourceDirName": "rumqttc/Developer Guide",
+  "slug": "/rumqttc/Developer Guide/rumqttc internals",
+  "permalink": "/docs/rumqttc/Developer Guide/rumqttc internals",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Rumqttc Internals"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "FAQs",
+    "permalink": "/docs/rumqttc/FAQs"
+  },
+  "next": {
+    "title": "rumqttc v0.24.0",
+    "permalink": "/docs/rumqttc/Releases/rumqttc_v0_24_0"
+  }
+}

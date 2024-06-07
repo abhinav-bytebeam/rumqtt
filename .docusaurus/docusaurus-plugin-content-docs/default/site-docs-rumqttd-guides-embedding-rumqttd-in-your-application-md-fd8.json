@@ -1,0 +1,25 @@
+{
+  "id": "rumqttd/Guides/Embedding rumqttd in your application",
+  "title": "Embedding rumqttd in your application",
+  "description": "rumqttd can be embedded into your rust project, i.e. it can be used as a library.",
+  "source": "@site/docs/rumqttd/Guides/Embedding rumqttd in your application.md",
+  "sourceDirName": "rumqttd/Guides",
+  "slug": "/rumqttd/Guides/Embedding rumqttd in your application",
+  "permalink": "/docs/rumqttd/Guides/Embedding rumqttd in your application",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Embedding rumqttd in your application"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Collecting Metrics",
+    "permalink": "/docs/rumqttd/Guides/Collecting Metrics"
+  },
+  "next": {
+    "title": "Logs and Monitoring",
+    "permalink": "/docs/rumqttd/Guides/Logs and monitoring"
+  }
+}

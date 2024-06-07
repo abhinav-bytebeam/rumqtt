@@ -1,0 +1,21 @@
+{
+  "id": "rumqttd/Guides/Using Link to communicate with broker",
+  "title": "Using Link to communicate with Broker",
+  "description": "Link, specifically LocalLink can be used to perform publish and subscribe actions.",
+  "source": "@site/docs/rumqttd/Guides/Using Link to communicate with broker.md",
+  "sourceDirName": "rumqttd/Guides",
+  "slug": "/rumqttd/Guides/Using Link to communicate with broker",
+  "permalink": "/docs/rumqttd/Guides/Using Link to communicate with broker",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Using Link to communicate with Broker"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Logs and Monitoring",
+    "permalink": "/docs/rumqttd/Guides/Logs and monitoring"
+  }
+}

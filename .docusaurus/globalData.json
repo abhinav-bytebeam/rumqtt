@@ -1,0 +1,98 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "Introduction",
+          "docs": [
+            {
+              "id": "Introduction",
+              "path": "/docs/Introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rumqttc/Developer Guide/rumqttc internals",
+              "path": "/docs/rumqttc/Developer Guide/rumqttc internals",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rumqttc/Examples",
+              "path": "/docs/rumqttc/Examples",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rumqttc/FAQs",
+              "path": "/docs/rumqttc/FAQs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rumqttc/Introduction",
+              "path": "/docs/rumqttc/Introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rumqttc/Releases/rumqttc_v0_24_0",
+              "path": "/docs/rumqttc/Releases/rumqttc_v0_24_0",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rumqttd/Configuration",
+              "path": "/docs/rumqttd/Configuration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rumqttd/FAQs",
+              "path": "/docs/rumqttd/FAQs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rumqttd/Guides/Collecting Metrics",
+              "path": "/docs/rumqttd/Guides/Collecting Metrics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rumqttd/Guides/Embedding rumqttd in your application",
+              "path": "/docs/rumqttd/Guides/Embedding rumqttd in your application",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rumqttd/Guides/Logs and monitoring",
+              "path": "/docs/rumqttd/Guides/Logs and monitoring",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rumqttd/Guides/Using Link to communicate with broker",
+              "path": "/docs/rumqttd/Guides/Using Link to communicate with broker",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rumqttd/Installation",
+              "path": "/docs/rumqttd/Installation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rumqttd/Introduction",
+              "path": "/docs/rumqttd/Introduction",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/Introduction",
+                "label": "Introduction"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "rumqttd/FAQs",
+  "title": "FAQs",
+  "description": "How to use with TLS",
+  "source": "@site/docs/rumqttd/FAQs.md",
+  "sourceDirName": "rumqttd",
+  "slug": "/rumqttd/FAQs",
+  "permalink": "/docs/rumqttd/FAQs",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "FAQs",
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Configuration",
+    "permalink": "/docs/rumqttd/Configuration"
+  },
+  "next": {
+    "title": "Collecting Metrics",
+    "permalink": "/docs/rumqttd/Guides/Collecting Metrics"
+  }
+}

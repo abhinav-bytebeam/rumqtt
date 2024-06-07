@@ -1,0 +1,27 @@
+{
+  "id": "rumqttc/FAQs",
+  "title": "FAQs",
+  "description": "Connecting to a broker using raw IP doesn't work",
+  "source": "@site/docs/rumqttc/FAQs.md",
+  "sourceDirName": "rumqttc",
+  "slug": "/rumqttc/FAQs",
+  "permalink": "/docs/rumqttc/FAQs",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "FAQs",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Examples",
+    "permalink": "/docs/rumqttc/Examples"
+  },
+  "next": {
+    "title": "Rumqttc Internals",
+    "permalink": "/docs/rumqttc/Developer Guide/rumqttc internals"
+  }
+}

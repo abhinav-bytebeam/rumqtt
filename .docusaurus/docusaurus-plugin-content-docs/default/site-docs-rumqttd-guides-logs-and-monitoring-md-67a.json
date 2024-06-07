@@ -1,0 +1,25 @@
+{
+  "id": "rumqttd/Guides/Logs and monitoring",
+  "title": "Logs and Monitoring",
+  "description": "Console can be used for logs and monitoring the state of broker with HTTP requests. On getting the request, broker prints the information to the terminal.",
+  "source": "@site/docs/rumqttd/Guides/Logs and monitoring.md",
+  "sourceDirName": "rumqttd/Guides",
+  "slug": "/rumqttd/Guides/Logs and monitoring",
+  "permalink": "/docs/rumqttd/Guides/Logs and monitoring",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Logs and Monitoring"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Embedding rumqttd in your application",
+    "permalink": "/docs/rumqttd/Guides/Embedding rumqttd in your application"
+  },
+  "next": {
+    "title": "Using Link to communicate with Broker",
+    "permalink": "/docs/rumqttd/Guides/Using Link to communicate with broker"
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Introduction",
+        "href": "/docs/Introduction",
+        "docId": "Introduction",
+        "unlisted": false
+      },
+      {
+        "type": "category",
+        "label": "rumqttc",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Getting started",
+            "href": "/docs/rumqttc/Introduction",
+            "docId": "rumqttc/Introduction",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Examples",
+            "href": "/docs/rumqttc/Examples",
+            "docId": "rumqttc/Examples",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "FAQs",
+            "href": "/docs/rumqttc/FAQs",
+            "docId": "rumqttc/FAQs",
+            "unlisted": false
+          },
+          {
+            "type": "category",
+            "label": "Developer Guide",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Rumqttc Internals",
+                "href": "/docs/rumqttc/Developer Guide/rumqttc internals",
+                "docId": "rumqttc/Developer Guide/rumqttc internals",
+                "unlisted": false
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "Releases",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "rumqttc v0.24.0",
+                "href": "/docs/rumqttc/Releases/rumqttc_v0_24_0",
+                "docId": "rumqttc/Releases/rumqttc_v0_24_0",
+                "unlisted": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "rumqttd",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Getting started",
+            "href": "/docs/rumqttd/Introduction",
+            "docId": "rumqttd/Introduction",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Installation",
+            "href": "/docs/rumqttd/Installation",
+            "docId": "rumqttd/Installation",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Configuration",
+            "href": "/docs/rumqttd/Configuration",
+            "docId": "rumqttd/Configuration",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "FAQs",
+            "href": "/docs/rumqttd/FAQs",
+            "docId": "rumqttd/FAQs",
+            "unlisted": false
+          },
+          {
+            "type": "category",
+            "label": "Guides",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Collecting Metrics",
+                "href": "/docs/rumqttd/Guides/Collecting Metrics",
+                "docId": "rumqttd/Guides/Collecting Metrics",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Embedding rumqttd in your application",
+                "href": "/docs/rumqttd/Guides/Embedding rumqttd in your application",
+                "docId": "rumqttd/Guides/Embedding rumqttd in your application",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Logs and Monitoring",
+                "href": "/docs/rumqttd/Guides/Logs and monitoring",
+                "docId": "rumqttd/Guides/Logs and monitoring",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Using Link to communicate with Broker",
+                "href": "/docs/rumqttd/Guides/Using Link to communicate with broker",
+                "docId": "rumqttd/Guides/Using Link to communicate with broker",
+                "unlisted": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "docs": {
+    "Introduction": {
+      "id": "Introduction",
+      "title": "Introduction",
+      "description": "What is rumqtt?",
+      "sidebar": "tutorialSidebar"
+    },
+    "rumqttc/Developer Guide/rumqttc internals": {
+      "id": "rumqttc/Developer Guide/rumqttc internals",
+      "title": "Rumqttc Internals",
+      "description": "Lets dive into internals of rumqttc and understand how it works.",
+      "sidebar": "tutorialSidebar"
+    },
+    "rumqttc/Examples": {
+      "id": "rumqttc/Examples",
+      "title": "Examples",
+      "description": "Overview",
+      "sidebar": "tutorialSidebar"
+    },
+    "rumqttc/FAQs": {
+      "id": "rumqttc/FAQs",
+      "title": "FAQs",
+      "description": "Connecting to a broker using raw IP doesn't work",
+      "sidebar": "tutorialSidebar"
+    },
+    "rumqttc/Introduction": {
+      "id": "rumqttc/Introduction",
+      "title": "Getting started",
+      "description": "A pure rust MQTT client which strives to be robust, efficient and easy to use. This library is backed by an async (using tokio) eventloop which enables users to send and receive MQTT messages in correspondence with a broker.",
+      "sidebar": "tutorialSidebar"
+    },
+    "rumqttc/Releases/rumqttc_v0_24_0": {
+      "id": "rumqttc/Releases/rumqttc_v0_24_0",
+      "title": "rumqttc v0.24.0",
+      "description": "rumqttc v0.24.0 comes with a lot of bug fixes and improvements with respect to usability.",
+      "sidebar": "tutorialSidebar"
+    },
+    "rumqttd/Configuration": {
+      "id": "rumqttd/Configuration",
+      "title": "Configuration",
+      "description": "rumqttd can be configured with a configuration TOML file, rumqttd.toml by default.",
+      "sidebar": "tutorialSidebar"
+    },
+    "rumqttd/FAQs": {
+      "id": "rumqttd/FAQs",
+      "title": "FAQs",
+      "description": "How to use with TLS",
+      "sidebar": "tutorialSidebar"
+    },
+    "rumqttd/Guides/Collecting Metrics": {
+      "id": "rumqttd/Guides/Collecting Metrics",
+      "title": "Collecting Metrics",
+      "description": "Rumqttd provides metrics and diagnostics data about the broker through special links. Let's look at two such links - AlertsLink or MetersLink. When using rumqttd as a library, the user can configure these links to receive different type of metrics data.",
+      "sidebar": "tutorialSidebar"
+    },
+    "rumqttd/Guides/Embedding rumqttd in your application": {
+      "id": "rumqttd/Guides/Embedding rumqttd in your application",
+      "title": "Embedding rumqttd in your application",
+      "description": "rumqttd can be embedded into your rust project, i.e. it can be used as a library.",
+      "sidebar": "tutorialSidebar"
+    },
+    "rumqttd/Guides/Logs and monitoring": {
+      "id": "rumqttd/Guides/Logs and monitoring",
+      "title": "Logs and Monitoring",
+      "description": "Console can be used for logs and monitoring the state of broker with HTTP requests. On getting the request, broker prints the information to the terminal.",
+      "sidebar": "tutorialSidebar"
+    },
+    "rumqttd/Guides/Using Link to communicate with broker": {
+      "id": "rumqttd/Guides/Using Link to communicate with broker",
+      "title": "Using Link to communicate with Broker",
+      "description": "Link, specifically LocalLink can be used to perform publish and subscribe actions.",
+      "sidebar": "tutorialSidebar"
+    },
+    "rumqttd/Installation": {
+      "id": "rumqttd/Installation",
+      "title": "Installation",
+      "description": "Run using docker",
+      "sidebar": "tutorialSidebar"
+    },
+    "rumqttd/Introduction": {
+      "id": "rumqttd/Introduction",
+      "title": "Getting started",
+      "description": "Rumqttd is a high performance MQTT broker written in Rust. It's light weight and embeddable, meaning you can use it as a library in your code and extend functionality",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}
